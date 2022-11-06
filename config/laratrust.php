@@ -184,7 +184,7 @@ return [
              */
             'abort' => [
                 'code' => 403,
-                'message' => 'User does not have any of the necessary access rights.'
+                'message' => 'Anda tidak memiliki akses!'
             ],
 
             /**
@@ -268,7 +268,7 @@ return [
         | Turn this value to false if you don't want to use Laratrust admin panel
         |
         */
-        'register' => true,
+        'register' => false,
 
         /*
         |--------------------------------------------------------------------------
